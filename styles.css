@@ -7,6 +7,27 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Outfit';
+}
+
+img {
+    padding: 16px;
+    border-radius: 10%;
+}
+
+h1 {
+    font-size: 22px;
+    padding: 24px 32px 16px 32px;
+    margin: 0;
+    color: #1F314F;
+    font-weight: bold;
+}
+
+p {
+    padding: 0px 32px;
+    margin: 0;
+    color: #68778D;
+    line-height: 24px;
 }
 
 .card {
@@ -14,10 +35,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 16px 16px 40px 16px;
-    border-radius: 0.5em;
+    text-align: center;
+    border-radius: 1em;
     width: 320px;
     height: 499px;
+    padding-bottom: 40px;
 }
 
 .attribution {
